@@ -6,7 +6,7 @@ import os
 import boto3
 import joblib
 import tempfile
-from typing import Optionals
+from typing import Optional
 
 
 app = FastAPI(title="Predicción multi-período con GradientBoostingRegressor")
