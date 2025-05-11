@@ -1,0 +1,21 @@
+[project]
+name = "modelo-fastapi"
+version = "0.1.0"
+description = "API para predicción usando GradientBoostingRegressor"
+requires-python = ">=3.9"
+
+dependencies = [
+    "fastapi",
+    "uvicorn", 
+    "uvicorn",
+    "boto3",
+    "joblib",
+    "scikit-learn",
+    "numpy",
+    "pydantic",
+    "pandas",
+    "matplotlib",
+    "openpyxl",
+    "python-dotenv",
+    "streamlit"
+]

@@ -1,0 +1,20 @@
+# Ignorar archivos de Terraform
+*.tfstate
+*.tfstate.backup
+*.terraform.lock.hcl
+.terraform/
+
+# Ignorar configuración y estado de Terraform en infrastructure/
+infrastructure/.terraform/
+infrastructure/.terraform.lock.hcl
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+
+# Ejecutables
+*.exe
+
+# Archivos comprimidos
+*.zip
+
+# Configuración de VSCode
+.vscode/
