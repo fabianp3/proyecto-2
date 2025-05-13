@@ -42,3 +42,8 @@ variable "project_name" {
   type        = string
   default     = "microservice-app"
 }
+variable "frontend_instance_count" {
+  description = "Number of frontend EC2 instances"
+  type        = number
+  default     = 1
+}
