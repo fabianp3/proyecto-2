@@ -16,8 +16,8 @@ cd /home/ec2-user
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clonar el repositorio o actualizarlo
-if [ -d "udem/.git" ]; then
-  cd udem
+if [ -d "proyecto-2/.git" ]; then
+  cd proyecto-2
   git fetch origin
   git reset --hard origin/master
 else
@@ -25,7 +25,7 @@ else
 fi
 
 # Entrar al proyecto
-cd "/home/ec2-user/udem/Proyecto 2"
+cd "/home/ec2-user/proyecto-2"
 
 # Crear entorno virtual y sincronizar dependencias
 uv venv
