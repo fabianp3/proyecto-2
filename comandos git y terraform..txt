@@ -1,0 +1,15 @@
+cat /var/log/user_data.log
+
+git add .
+
+git commit -m "comentario"
+
+git push origin
+
+
+
+terraform plan -var-file="dev.tfvars"
+
+terraform apply -var-file="dev.tfvars"
+
+terraform destry/ -var-file="dev.tfvars"
